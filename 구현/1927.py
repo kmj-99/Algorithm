@@ -18,7 +18,3 @@ for i in range(N):
             print(queue.get())
     else:
         queue.put(num)
-    
-        
-
-    
