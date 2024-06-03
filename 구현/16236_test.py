@@ -42,6 +42,7 @@ def bfs(x,y,size):
                         temp.append((nx,ny,distance[nx][ny]))
     return sorted(temp,key=lambda x: (-x[2],-x[0],-x[1]))
 
+
                     
 
                 
